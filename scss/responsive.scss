@@ -1,0 +1,80 @@
+@media (max-width: 670px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-sizing: border-box;
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            .nav-wrapper {
+                display: inline-block;
+                h3 {
+                    margin: auto;
+                }
+                ul {
+                    li {
+                        display: none;
+                    }
+                }
+                .button {
+                    display: none;
+                }
+            }
+
+            .hero-section {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                    .section1 {
+                        width: 100%;
+                        padding: 0;
+                        .text1 {
+                            font-size: 27px;
+                            margin: auto;
+                            width: 90%;
+                            height: 50%;
+                        }
+                        .text2 {
+                            font-size: 14px;
+                            line-height: 20px;
+                            margin: auto;
+                            width: 90%;
+                        }
+                    }
+
+                    .section2 {
+                        width: 100%;
+                        box-sizing: border-box;
+                        .ilustrasi {
+                            box-sizing: border-box;
+                            width: 100%;
+                            height: 100%;
+                            img {
+                                box-sizing: border-box;
+                                width: 100%;
+                                height: 100%;
+                                margin-left:-50px
+                            }
+                        }
+                    }
+            }
+        }
+
+        
+    }
+
+
+
+}
